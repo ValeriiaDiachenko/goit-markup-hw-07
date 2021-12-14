@@ -1,0 +1,29 @@
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+  margin-right: 93px;
+  padding-bottom: 25px;
+  padding-top: 24px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
