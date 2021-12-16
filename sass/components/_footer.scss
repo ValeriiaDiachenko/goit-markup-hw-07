@@ -13,7 +13,7 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-address {
+.footer-direction {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -34,7 +34,7 @@
   display: flex;
   justify-content: space-between;
 }
-.logo-adress {
+.footer-address {
   display: flex;
 }
 .footer-title {
@@ -53,7 +53,7 @@
   justify-content: center;
   margin-top: 16px;
 }
-.logo-footer {
+.footer-contact-list {
   margin-bottom: 20px;
 }
 .footer-list:not(:last-child) {
@@ -112,6 +112,13 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .input-box {
   display: flex;
@@ -159,7 +166,7 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-subscription__input {
+.form-input {
   display: flex;
   flex-wrap: wrap;
 }
