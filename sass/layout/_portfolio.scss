@@ -16,14 +16,16 @@
   transition-property: background-color, box-shadow, color;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
-}
-.portfolio-button:hover,
-.portfolio-button:focus {
+
+  &:hover,
+  &:focus {
   background-color: var(--accent-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   color: #ffffff;
 }
+}
+
 
 .btn-list {
   padding: 0;
@@ -44,11 +46,15 @@
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
-}
-.list-box:hover {
+  &:hover {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+  &:hover .card-text {
+  transform: translateY(0);
+}
+}
+
 .projects-title {
   font-weight: 700;
   font-size: 18px;
@@ -104,16 +110,14 @@
   transition: transform 250ms var(--transition-timing-function);
 }
 
-.list-box:hover .card-text {
-  transform: translateY(0);
-}
+
 .link {
   text-decoration: none;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
-}
-.link:hover,
-.link:focus {
+  &:hover,
+  &:focus {
   color: var(--accent-color);
+}
 }

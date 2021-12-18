@@ -60,10 +60,11 @@
   width: 44px;
   height: 44px;
   fill: #afb1b8;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
-.members-social-item:not(:last-child) {
-  margin-right: 10px;
-}
+
 .members-social-link {
   width: 100%;
   height: 100%;
@@ -75,9 +76,9 @@
   transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
-}
-.members-social-link:hover,
-.members-social-link:focus {
-  background-color: var(--accent-color);
-  fill: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: #ffffff;
+  }
 }

@@ -35,7 +35,10 @@
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
-.current-page::after {
+
+.current-page {
+  position: relative;
+  &::after {
   content: "";
   display: block;
   width: 100%;
@@ -46,8 +49,6 @@
   left: 0;
   bottom: 0;
 }
-.current-page {
-  position: relative;
 }
 
 .header-contact-item:not(:last-child) {
@@ -69,12 +70,13 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
-}
-
-.contact-list:hover,
-.contact-list:focus {
+  &:hover,
+  &:focus {
   fill: var(--accent-color);
 }
+}
+
+
 .contact-icon {
   margin-right: 10px;
   transition-property: fill;
@@ -86,8 +88,9 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
-}
-.link:hover,
-.link:focus {
+  &:hover,
+  &:focus {
   color: var(--accent-color);
 }
+}
+

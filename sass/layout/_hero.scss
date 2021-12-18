@@ -45,9 +45,10 @@
   transition-property: background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
-}
-.hero-button:focus,
-.hero-button:hover {
+  &:focus,
+  &:hover {
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+}
+
