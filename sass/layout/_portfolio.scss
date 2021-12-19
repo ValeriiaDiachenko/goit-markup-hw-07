@@ -1,4 +1,4 @@
-.portfolio-button {
+.portfolio__button {
   border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
@@ -19,26 +19,25 @@
 
   &:hover,
   &:focus {
-  background-color: var(--accent-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  color: #ffffff;
-}
+    background-color: var(--accent-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+  }
 }
 
-
-.btn-list {
+.btn__list {
   padding: 0;
   display: flex;
   justify-content: center;
   border-radius: 4px;
   margin-bottom: 50px;
 }
-.btn-list-item:not(:last-child) {
+.btn__list-item:not(:last-child) {
   margin-right: 8px;
 }
 
-.list-box {
+.list__box {
   background: #ffffff;
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
@@ -47,22 +46,22 @@
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
   &:hover {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-  &:hover .card-text {
-  transform: translateY(0);
-}
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  &:hover .card__text {
+    transform: translateY(0);
+  }
 }
 
-.projects-title {
+.projects__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
 }
-.projects-description {
+.projects__description {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -70,18 +69,18 @@
   margin-top: 4px;
 }
 
-.card-list {
+.card__list {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
 }
-.card-thumb {
+.card__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.box-content {
+.box__content {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
@@ -89,7 +88,7 @@
   border: 1px solid #eeeeee;
 }
 
-.card-text {
+.card__text {
   display: inline-block;
   position: absolute;
   top: 0;
@@ -110,7 +109,6 @@
   transition: transform 250ms var(--transition-timing-function);
 }
 
-
 .link {
   text-decoration: none;
   transition-property: color;
@@ -118,6 +116,6 @@
   transition-timing-function: var(--transition-timing-function);
   &:hover,
   &:focus {
-  color: var(--accent-color);
-}
+    color: var(--accent-color);
+  }
 }

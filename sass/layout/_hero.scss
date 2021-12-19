@@ -1,4 +1,4 @@
-.hero-section {
+.hero__section {
   background-color: #2f303a;
   padding-bottom: 200px;
   padding-top: 200px;
@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -25,7 +25,7 @@
   margin-left: auto;
   margin-bottom: 30px;
 }
-.hero-button {
+.hero__button {
   background: var(--accent-color);
   box-shadow: transparent;
   border-radius: 4px;
@@ -47,8 +47,7 @@
   transition-timing-function: var(--transition-timing-function);
   &:focus,
   &:hover {
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }
-}
-

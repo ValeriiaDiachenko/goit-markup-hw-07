@@ -1,4 +1,4 @@
-.activities-list-title {
+.activities__list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -7,12 +7,12 @@
   color: var(--title-color);
   margin-bottom: 10px;
 }
-.activities-text {
+.activities__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.activities-title {
+.activities__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -22,11 +22,11 @@
   margin-bottom: 50px;
   margin-top: 94px;
 }
-.activities-list {
+.activities__list {
   display: flex;
   justify-content: center;
 }
-.activities-overlay-title {
+.activities__overlay-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -41,7 +41,7 @@
   z-index: 5;
 }
 
-.activities-list-item {
+.activities__list-item {
   position: relative;
   &:not(:last-child) {
     margin-right: 30px;
@@ -57,18 +57,17 @@
     bottom: 0;
   }
 }
-.activities-types {
+.activities__types {
   display: flex;
 }
 
-
-.activities-types-item {
+.activities__types-item {
   width: 270px;
   &:not(:last-child) {
-  margin-right: 30px;
+    margin-right: 30px;
+  }
 }
-}
-.activities-icon-place {
+.activities__icon-place {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;

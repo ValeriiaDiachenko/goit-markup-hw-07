@@ -1,4 +1,4 @@
-.clients-title {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -8,12 +8,12 @@
 
   color: var(--title-color);
 }
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.clients-box {
+.clients__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@
   }
 }
 
-.clients-item {
+.clients__item {
   fill: #afb1b8;
   &:not(:last-child) {
     margin-right: 30px;
